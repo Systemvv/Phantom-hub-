@@ -6,8 +6,8 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
 
-MainSection:NewButton("Back Front Flip", "Idk", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/7wDcPtLk"))();
+MainSection:NewButton("Infinite jump", "gives you infinite jump", function()
+    pcall(loadstring(game:HttpGet("https://pastebin.com/raw/2wgbZ6Xd")))
 end)
 
 MainSection:NewToggle("Super-Human", "Superman 🤫", function(state)
