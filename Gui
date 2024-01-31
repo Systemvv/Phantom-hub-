@@ -7,15 +7,16 @@ local MainSection = Main:NewSection("Main")
 
 
 MainSection:NewButton("Back Front Flip", "Idk", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/7wDcPtLk"))();
 end)
 
 MainSection:NewToggle("Super-Human", "Superman 🤫", function(state)
     if state then
-        game.Players.LocalPlayers.Character.Humanoid.WalkSpeed = 120
-        game.Players.LocalPlayers.Character.Humanoid.JumpPower = 120
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+wait (0.2)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
     else
-       game.Players.LocalPlayers.Character.Humanoid.WalkSpeed = 16
-        game.Players.LocalPlayers.Character.Humanoid.JumpPower = 50
+       game.Players.LocalPlayers.Character.Humanoid.WalkSpeed = 16.8
+        game.Players.LocalPlayers.Character.Humanoid.JumpPower = 52
     end
-end)
+end) 
