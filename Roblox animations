@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Systëm", "Ocean")
-local Tab = Window:NewTab("TabName")
-local Section = Tab:NewSection("Section Name")
-Section:NewButton("esp players", "Just use it lil bro", function()-- Configuration
+local Tab = Window:NewTab("All animations")
+local Section = Tab:NewSection("👇")
+Section:NewButton("All animations", "warning ⚠:don't use it in survival games", function()-- Configuration
 local AnimationChanger = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local TopBar = Instance.new("Frame")
